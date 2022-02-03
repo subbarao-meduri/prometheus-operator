@@ -14,4 +14,3 @@ COPY --from=builder /workspace/operator /bin/operator
 USER nobody
 
 ENTRYPOINT ["/bin/operator"]
-
