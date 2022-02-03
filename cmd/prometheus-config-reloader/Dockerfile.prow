@@ -9,7 +9,7 @@ RUN GOOS=linux GOARCH=amd64 CGO_ENABLED=0 go build -o prometheus-config-reloader
 
 FROM registry.access.redhat.com/ubi8/ubi-minimal:latest
 
-COPY --from=builder /workspace/prometheus-config-reloader
+COPY --from=builder /workspace/prometheus-config-reloader /bin/prometheus-config-reloader
 
 USER nobody
 
