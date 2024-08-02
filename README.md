@@ -97,8 +97,6 @@ matching deployments and configurations are kept in sync.
 To learn more about the CRDs introduced by the Prometheus Operator have a look
 at the [design](https://prometheus-operator.dev/docs/operator/design/) page.
 
-To automate the validation of your CRD configuration files, see the [linting](Documentation/user-guides/linting.md) page.
-
 ## Dynamic Admission Control
 
 To prevent invalid Prometheus alerting and recording rules from causing failures in a deployed Prometheus instance,
@@ -183,5 +181,3 @@ common issues and frequently asked questions (FAQ).
 ## Acknowledgements
 
 prometheus-operator organization logo was created and contributed by [Bianca Cheng Costanzo](https://github.com/bia).
-
-Rebuild Image: Wed Sep 7 14:48:45 EDT 2022
